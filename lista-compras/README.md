@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# Lista de Compras - Manual de Usuario
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil para gestionar tu lista de compras de manera fácil y rápida.
 
-## Get started
+---
 
-1. Install dependencies
+## Guía de Instalación y Uso (Desde Cero)
 
+### Paso 1: Requisitos Previos
+
+Antes de comenzar, asegúrate de tener instalado en tu computadora:
+
+- **Node.js** (versión 14 o superior)
+  - Descárgalo desde: https://nodejs.org/
+  - Verifica la instalación abriendo una terminal y ejecutando:
+    ```bash
+    node --version
+    npm --version
+    ```
+
+---
+
+### Paso 2: Clonar o Descargar el Proyecto
+
+1. Descarga el proyecto en tu computadora
+2. Abre una terminal (Command Prompt, PowerShell, Terminal, etc.)
+3. Navega a la carpeta del proyecto:
    ```bash
-   npm install
+   cd ruta/a/lista-compras
    ```
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+### Paso 3: Instalar Dependencias en la Computadora
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Ejecuta el siguiente comando en la terminal para instalar todas las dependencias necesarias:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Este proceso puede tomar unos minutos. Espera a que se complete.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+### Paso 4: Instalar Expo Go en tu Celular
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. **En Android:**
+   - Abre Google Play Store
+   - Busca "Expo Go"
+   - Descarga e instala la aplicación oficial de Expo Inc.
 
-## Join the community
+2. **En iPhone/iPad:**
+   - Abre App Store
+   - Busca "Expo Go"
+   - Descarga e instala la aplicación oficial de Expo Inc.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Paso 5: Conectar tu Celular a la Computadora
+
+Asegúrate de que:
+- Tu celular y tu computadora estén **conectados a la misma red WiFi**
+- Ambos dispositivos tengan conexión a internet
+
+---
+
+### Paso 6: Ejecutar la Aplicación
+
+En la terminal de tu computadora, ejecuta:
+
+```bash
+npm start
+```
+
+O alternativamente:
+
+```bash
+npx expo start
+```
+
+Verás una salida en la terminal con un código QR y varias opciones.
+
+---
+
+### Paso 7: Abrir la App en tu Celular
+
+Hay dos formas de hacerlo:
+
+#### Opción A: Escanear el Código QR (Recomendado)
+
+1. Abre la aplicación **Expo Go** en tu celular
+2. Toca el botón de **"Escanear código QR"** (icono de cámara)
+3. Apunta la cámara del celular al código QR que aparece en la terminal
+4. ¡La app se abrirá automáticamente!
+
+## 📱 Usar la Aplicación
+
+Una vez que la app se abre en Expo Go:
+
+1. **Agregar un producto:** escribe el nombre en el campo de texto y presiona el botón
+2. **Marcar como comprado:** toca la casilla al lado del producto
+3. **Eliminar un producto:** desliza o presiona el botón de eliminar
+4. **Ver detalles:** navega entre las pestañas de la app
+
