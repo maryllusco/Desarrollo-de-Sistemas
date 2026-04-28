@@ -2,7 +2,7 @@ import Contenedor from "../componentes/Contenedor";
 import TituloDeLaPagina from "../componentes/TituloDeLaPagina";
 import FormularioParaItemNuevo from "../componentes/FormularioParaItemNuevo";
 import ListaDeCompras from "../componentes/ListaDeCompras";
-import usarItemsDeCompra from "../hooks/usarItemsDeCompra";
+import useItemsDeCompra from "../hooks/usarItemsDeCompra";
 
 export default function Index() {
   const {
@@ -10,7 +10,7 @@ export default function Index() {
     agregarProducto,
     cambiarEstadoProducto,
     eliminarProducto,
-  } = usarItemsDeCompra();
+  } = useItemsDeCompra();
 
   return (
     <Contenedor>
